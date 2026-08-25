@@ -69,17 +69,6 @@ export function AuthProvider({ children }) {
     }
   };
 
-  const loginWithGoogle = async () => {
-    setLoading(true);
-    try {
-      const loggedUser = await authService.loginWithGoogle();
-      setUser(loggedUser);
-      return loggedUser;
-    } finally {
-      setLoading(false);
-    }
-  };
-
   const signup = async (userData) => {
     setLoading(true);
     try {
@@ -106,7 +95,6 @@ export function AuthProvider({ children }) {
     loading,
     isSupabaseConfigured,
     login,
-    loginWithGoogle,
     signup,
     logout,
     resetPassword

@@ -169,28 +169,6 @@ export const authService = {
     return sessionUser;
   },
 
-  /**
-   * Log in with Google OAuth
-   */
-  async loginWithGoogle() {
-    if (isSupabaseConfigured && supabase) {
-      const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          redirectTo: window.location.origin
-        }
-      });
-      if (error) throw new Error(error.message);
-      return data;
-    }
-
-    // Development fallback
-    await new Promise((res) => setTimeout(res, 400));
-    const demoUser = DEFAULT_USERS[0];
-    const { password: _, ...sessionUser } = demoUser;
-    localStorage.setItem(STORAGE_AUTH_KEY, JSON.stringify(sessionUser));
-    return sessionUser;
-  },
 
   /**
    * Register a new verified engineering student
