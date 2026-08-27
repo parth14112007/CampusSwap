@@ -40,6 +40,9 @@ import { ProfilePage } from './pages/ProfilePage';
 import { NotificationsPage } from './pages/NotificationsPage';
 import { SettingsPage } from './pages/SettingsPage';
 
+// Electronics Expert AI Assistant
+import { ElectronicsAssistantChat } from './components/ai/ElectronicsAssistantChat';
+
 export default function App() {
   return (
     <ToastProvider>
@@ -244,6 +247,7 @@ export default function App() {
           {/* Catch-all fallback */}
           <Route path="*" element={<Navigate to="/explore" replace />} />
         </Routes>
+        <ElectronicsAssistantChat />
       </MarketplaceProvider>
     </AuthProvider>
     </ToastProvider>

@@ -55,13 +55,6 @@ export function LoginPage() {
   };
 
 
-  const handleDemoFill = () => {
-    setEmail('arjun.sharma@mit.edu');
-    setPassword('password123');
-    setErrors({});
-    setAuthError('');
-  };
-
   return (
     <div className="min-h-screen bg-background text-on-background flex flex-col justify-center items-center p-4 sm:p-6 antialiased">
       {/* Background ambient decorative blurs */}
@@ -107,23 +100,6 @@ export function LoginPage() {
           </div>
         )}
 
-        {/* Quick Demo Login Preset Banner */}
-        <div className="bg-surface-container-low p-3.5 rounded-2xl border border-primary/20 flex items-center justify-between gap-2">
-          <div className="flex flex-col">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-primary">
-              Demo Student Account
-            </span>
-            <span className="text-[12px] text-on-surface-variant">arjun.sharma@mit.edu</span>
-          </div>
-          <button
-            type="button"
-            onClick={handleDemoFill}
-            className="text-[12px] font-bold bg-primary/10 text-primary hover:bg-primary/20 px-2.5 py-1.5 rounded-xl transition-all cursor-pointer"
-          >
-            Auto-fill
-          </button>
-        </div>
-
         {/* Login Form */}
         <form onSubmit={handleLogin} className="flex flex-col gap-4">
           {/* College Email Input */}
@@ -139,7 +115,7 @@ export function LoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="e.g. arjun.sharma@mit.edu"
+                placeholder="e.g. student@college.edu"
                 className={`w-full pl-11 pr-4 py-3 bg-surface-container-low border rounded-[16px] text-body-md text-on-surface placeholder:text-outline focus:outline-none transition-all ${
                   errors.email
                     ? 'border-error ring-1 ring-error'
