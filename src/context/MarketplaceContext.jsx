@@ -32,7 +32,7 @@ export function MarketplaceProvider({ children }) {
       name: 'Arjun Sharma',
       dept: 'Robotics & Automation',
       year: '3rd Year',
-      campus: 'MIT Engineering Tech Campus',
+      campus: 'K. K. Wagh Institute of Engineering Education & Research',
       trustScore: 4.9,
       totalSwaps: 18,
       avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80',

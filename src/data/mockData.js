@@ -654,7 +654,7 @@ export const RESOURCE_SORT_OPTIONS = [
 export const CAMPUS_LOCATIONS = [
   {
     id: "loc-eng-block",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Engineering Block",
     labName: "Academic Block A & B Complex",
     roomNumber: "Block B (Main Labs)",
@@ -672,7 +672,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-robotics-bay",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Robotics Lab",
     labName: "Robotics & Automation Workshop (Bay A)",
     roomNumber: "R-102",
@@ -690,7 +690,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-elec-lab",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Electronics Lab",
     labName: "Electronics & Circuitry Lab 2",
     roomNumber: "B-204",
@@ -708,7 +708,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-iot-lab",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "IoT Lab",
     labName: "IoT Student Maker Space & Wireless Lab",
     roomNumber: "C-412",
@@ -726,7 +726,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-mech-workshop",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Mechanical Workshop",
     labName: "Mechatronics & Machining Bay 2",
     roomNumber: "M-104",
@@ -744,7 +744,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-fablab",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Innovation Lab",
     labName: "Campus FabLab & Rapid Prototyping Center",
     roomNumber: "FAB-01",
@@ -762,7 +762,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-library",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Library",
     labName: "Central Digital Library & Reference Bay",
     roomNumber: "LIB-Digital",
@@ -780,7 +780,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-hostels",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Hostel Area",
     labName: "Hostel Maker Commons (Hostels 2 & 4)",
     roomNumber: "H4-Common",
@@ -798,7 +798,7 @@ export const CAMPUS_LOCATIONS = [
   },
   {
     id: "loc-student-center",
-    campusName: "MIT Engineering Tech Campus",
+    campusName: "K. K. Wagh Institute of Engineering Education & Research",
     buildingName: "Student Center",
     labName: "Student Innovation & Incubation Hub",
     roomNumber: "SC-200",
@@ -1726,3 +1726,4 @@ export const INITIAL_NOTIFICATIONS = [
     createdAt: "2026-08-23T12:00:00Z"
   }
 ];
+

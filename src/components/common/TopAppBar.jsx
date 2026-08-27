@@ -65,7 +65,7 @@ export function TopAppBar({ title = 'CampusSwap', showBack = false, onBack }) {
         {/* Center: Campus selector / indicator */}
         <div className="hidden md:flex items-center gap-1.5 bg-surface-container px-3 py-1 rounded-full border border-outline-variant/30 text-body-sm text-on-surface-variant">
           <span className="material-symbols-outlined text-primary text-[18px]">school</span>
-          <span className="font-medium text-[13px]">{authUser?.campus || 'MIT Engineering Tech Campus'}</span>
+          <span className="font-medium text-[13px]">{authUser?.campus || 'K. K. Wagh Institute of Engineering Education & Research'}</span>
         </div>
 
         {/* Right: Actions */}
@@ -249,3 +249,4 @@ export function TopAppBar({ title = 'CampusSwap', showBack = false, onBack }) {
     </>
   );
 }
+

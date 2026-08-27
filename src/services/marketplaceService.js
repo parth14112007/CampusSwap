@@ -57,7 +57,7 @@ function formatDbListing(row) {
       name: row.profiles?.full_name || 'Student Engineer',
       dept: row.profiles?.department || 'Engineering',
       year: row.profiles?.year || '3rd Year',
-      campus: row.profiles?.college || 'MIT Engineering Tech Campus',
+      campus: row.profiles?.college || 'K. K. Wagh Institute of Engineering Education & Research',
       rating: row.profiles?.trust_score ? Number(row.profiles.trust_score) : 4.9,
       swapsCount: row.profiles?.total_swaps || 18,
       avatar: row.profiles?.avatar_url || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80',
@@ -417,3 +417,4 @@ export const marketplaceService = {
     return SORT_OPTIONS;
   }
 };
+
