@@ -624,7 +624,7 @@ export const CURRENT_USER = {
   email: "arjun.sharma@mit.edu",
   dept: "Robotics & Automation",
   year: "3rd Year",
-  campus: "MIT Engineering Tech Campus • North Wing",
+  campus: "K. K. Wagh Institute of Engineering Education & Research • Nashik",
   trustScore: 4.9,
   totalSwaps: 18,
   escrowWallet: {

@@ -52,7 +52,7 @@ export function SettingsPage() {
               <input
                 type="text"
                 disabled
-                value={user?.campus || 'MIT Engineering Tech Campus • North Wing'}
+                value={user?.campus || 'K. K. Wagh Institute of Engineering Education & Research • Nashik'}
                 className="p-3 bg-surface-container-low rounded-xl border border-outline-variant/20 text-body-sm text-on-surface font-medium cursor-not-allowed"
               />
               <span className="text-[11px] text-on-surface-variant">
